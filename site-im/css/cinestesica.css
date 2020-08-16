@@ -1,0 +1,17 @@
+.interna_cinestesica-corporal {
+  background: url("../img/bg-cinestesica-corporal.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_cinestesica-corporal h1 {
+  color: black;
+}
+
+.interna_cinestesica-corporal h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin: 5px auto;
+}

@@ -1,0 +1,17 @@
+.interna_naturalista {
+  background: url("../img/bg-naturalista.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_naturalista h1 {
+  color: #ffffff;
+}
+
+.interna_naturalista h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px auto;
+}

@@ -1,0 +1,17 @@
+.interna_logico-matematica {
+  background: url("../img/bg-logico-matematica.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_logico-matematica h1 {
+  color: #ffffff;
+}
+
+.interna_logico-matematica h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px auto;
+}

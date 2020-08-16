@@ -1,0 +1,258 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-family: Arial, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+}
+
+.btn {
+  border: 3px solid #9b599f;
+  padding: 10px 30px;
+  color: #9b599f;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn:hover {
+  color: #00b0c2;
+  border-color: #00b0c2;
+}
+
+.subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin: 10px auto;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #9b599f;
+  padding: 0px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+  margin-top: 35px;
+}
+
+.header_menu ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.header_menu ul li a {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.header_menu ul li a:hover {
+  color: #00b0c2;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: #00b0c2;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url("../img/bg-intro.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quote-externo {
+  max-width: 400px;
+  margin: 0 auto;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.quote-externo p {
+  font-style: italic;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin: 10px auto 10px auto;
+}
+
+.quote-externo cite {
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Introução Interna */
+
+.introducao-interna {
+  width: 100%;
+  margin-top: 80px;
+  height: 160px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin: 5px auto;
+}
+
+/* Inteligências */
+.inteligencias {
+  padding: 60px 0;
+}
+
+.inteligencias_lista li {
+  background: #9b599f;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+
+.inteligencias_lista li h3 {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.inteligencias_lista li h3:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px auto;
+}
+
+.espacamento_inteligencias {
+  padding: 258px 0px 0px 0px;
+}
+
+.espacamento_sobre {
+  padding: 400px 0px 0px 0px;
+}
+
+.call-to-action {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call-to-action p {
+  margin-bottom: 20px;
+}
+
+/* Trabalhos */
+
+.trabalhos {
+  width: 100%;
+  background: #00b0c2;
+  padding: 60px 0;
+}
+
+.trabalhos_fotos li:last-child {
+  margin-top: 20px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #9b599f;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 5px 0 10px 0;
+}
+
+.footer ul li {
+  display: inline-block;
+}
+
+.copyright {
+  width: 100%;
+  background: black;
+  padding: 20px 0;
+  color: #ffffff;
+  text-align: center;
+}

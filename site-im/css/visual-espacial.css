@@ -1,0 +1,17 @@
+.interna_visual-espacial {
+  background: url("../img/bg-visual-espacial.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_visual-espacial h1 {
+  color: black;
+}
+
+.interna_visual-espacial h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin: 5px auto;
+}

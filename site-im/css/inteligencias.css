@@ -1,0 +1,29 @@
+.interna_inteligencias {
+  background: url("../img/bg-inteligencias.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_inteligencias {
+  padding: 50px 0 60px 0;
+}
+
+.interna_inteligencias p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding: 70px 30px 0 30px;
+}
+
+.inteligencias_paragrafo {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding: 0px 20px 20px 20px;
+}
+
+.inteligencias_paragrafo_linguistica {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 1em;
+  padding: 0px 20px 100px 20px;
+}
