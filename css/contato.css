@@ -1,0 +1,21 @@
+.interna_contato {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.interna_contato h1 {
+  color: black;
+}
+
+.interna_contato h1:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: black;
+  margin: 5px auto;
+}
+
+.form {
+  padding-right: 60px;
+}
